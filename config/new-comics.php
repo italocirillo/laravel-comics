@@ -78,52 +78,52 @@ return [
     "links" => [
         [
             "text" => "characters",
-            "url" => "#",
+            "url" => "/characters",
             "current" => false,
         ],
         [
             "text" => "comics",
-            "url" => "#",
+            "url" => "/comics",
             "current" => true,
         ],
         [
             "text" => "movies",
-            "url" => "#",
+            "url" => "/movies",
             "current" => false,
         ],
         [
             "text" => "tv",
-            "url" => "#",
+            "url" => "/tv",
             "current" => false,
         ],
         [
             "text" => "games",
-            "url" => "#",
+            "url" => "/games",
             "current" => false,
         ],
         [
             "text" => "collectibles",
-            "url" => "#",
+            "url" => "/collectibles",
             "current" => false,
         ],
         [
             "text" => "videos",
-            "url" => "#",
+            "url" => "/videos",
             "current" => false,
         ],
         [
             "text" => "fans",
-            "url" => "#",
+            "url" => "fans",
             "current" => false,
         ],
         [
             "text" => "news",
-            "url" => "#",
+            "url" => "/news",
             "current" => false,
         ],
         [
             "text" => "shop",
-            "url" => "#",
+            "url" => "/shop",
             "current" => false,
         ],
     ],
@@ -154,5 +154,183 @@ return [
             "name" => "dc power visa",
         ],
 
+    ],
+    "list" => [
+        [
+            "nomeLista" => "dc comics",
+            "col" => 1,
+            "elementiLista" => [
+                [
+                    "name" => "Characters",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "Comics",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "Comics",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "Movies",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "TV",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "Games",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "Videos",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "News",
+                    "url" => "#",
+                    "status" => false,
+                ],
+            ]
+        ],
+        [
+            "nomeLista" => "dc",
+            "col" => 2,
+            "elementiLista" => [
+                [
+                    "name" => "Term Of Use",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "Privacy policy(New)",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "Ad Choises",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "Advetising",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "Jobs",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "Subscription",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "Talent Workshopes",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "CPSC Certificates",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "Rating",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "Shop Help",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "Contact Us",
+                    "url" => "#",
+                    "status" => false,
+                ],
+            ]
+        ],
+        [
+            "nomeLista" => "sities",
+            "col" => 3,
+            "elementiLista" => [
+                [
+                    "name" => "DC",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "MAD Magazione",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "DC Kids",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "DC Universe",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "DC Power Visa",
+                    "url" => "#",
+                    "status" => false,
+                ],
+            ]
+        ],
+        [
+            "nomeLista" => "shop",
+            "col" => 1,
+            "elementiLista" => [
+                [
+                    "name" => "Shop DC",
+                    "url" => "#",
+                    "status" => false,
+                ],
+                [
+                    "name" => "Shop DC Collectibles",
+                    "url" => "#",
+                    "status" => false,
+                ],
+            ]
+        ],
+    ],
+    "footerIconList" => [
+        [
+            "url" => "#",
+            "name" => "footer-facebook.png",
+        ],
+        [
+            "url" => "#",
+            "name" => "footer-twitter.png",
+        ],
+        [
+            "url" => "#",
+            "name" => "footer-youtube.png",
+        ],
+        [
+            "url" => "#",
+            "name" => "footer-pinterest.png",
+        ],
+        [
+            "url" => "#",
+            "name" => "footer-periscope.png",
+        ]
     ]
 ];

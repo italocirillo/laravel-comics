@@ -1,0 +1,102 @@
+@use "./variables.scss" as*;
+
+footer {
+    ul {
+        list-style: none;
+    }
+
+    .footer-top {
+        background-image: url(../img/footer-bg.jpg);
+        background-size: cover;
+        position: center center;
+        padding: 2em 0em;
+        position: relative;
+
+        ul {
+            list-style: none;
+            padding-left: 0em;
+
+            a {
+                text-decoration: none;
+                color: lighten($primary-color, 10%);
+            }
+
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+
+        .row {
+            .col1 {
+                width: 50%;
+                display: flex;
+                flex-direction: row;
+                align-items: start;
+
+                .macro-list {
+                    padding: 0.5em 0.5em;
+                    z-index: 1;
+
+                    h3 {
+                        text-transform: uppercase;
+                        padding-bottom: 0.5em;
+                        color: white;
+                    }
+                }
+            }
+
+            .col2 {
+                width: 50%;
+                display: inline-block;
+                position: absolute;
+                bottom: -20px;
+                right: 0%;
+
+                img {
+                    width: 100%;
+                }
+            }
+        }
+    }
+
+    .footer-bottom {
+        padding: 2em 0em;
+        background-color: #303030;
+        position: relative;
+        z-index: 1;
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+
+            .sing-up {
+                h4 {
+                    color: white;
+                    border: 2px solid $active-color;
+                    text-transform: uppercase;
+                    padding: 0.9em 1em;
+                    cursor: pointer;
+                }
+            }
+
+            .contacts {
+                display: flex;
+                justify-content: center;
+                gap: 2em;
+                align-items: center;
+
+                h3 {
+                    text-transform: uppercase;
+                    font-size: 1.5rem;
+                    color: $active-color;
+                }
+
+                ul {
+                    display: flex;
+                    gap: 1em;
+                    align-items: center;
+                }
+            }
+        }
+    }
+}

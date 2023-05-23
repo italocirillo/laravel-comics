@@ -20,6 +20,7 @@
     @include('partials.header')
     @include('partials.cardHero')
     @include('partials.banner')
+    @include('partials.footer')
 </body>
 
 </html>

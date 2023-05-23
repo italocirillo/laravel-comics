@@ -8,8 +8,8 @@
         <nav>
             <ul>
                 @foreach ($links as $link)
-                    <li :class="$link ? 'active' : ''">
-                        <a :href="">{{ $link['text'] }}</a>
+                    <li class="$link ? 'active' : ''">
+                        <a href="{{ $link['url'] }}">{{ $link['text'] }}</a>
                     </li>
                 @endforeach
             </ul>
