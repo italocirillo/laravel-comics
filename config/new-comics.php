@@ -126,5 +126,5 @@ return [
             "url" => "#",
             "current" => false,
         ],
-    ]
+    ],
 ];

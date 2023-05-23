@@ -1,0 +1,83 @@
+@use "./variables.scss" as*;
+
+main {
+    background-color: $sfondo-nero;
+    padding: 7em 0em 2em 0em;
+    text-align: start;
+
+    h1 {
+        color: white;
+        font-size: 1rem;
+    }
+
+    .jumbotron {
+        height: 40vh;
+
+        img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: top center;
+        }
+    }
+
+    .row {
+        padding: 2em 0em;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .load-more {
+        text-align: center;
+    }
+
+    .button {
+        background-color: $active-color;
+        border-style: none;
+        cursor: pointer;
+        padding: 1em 3em;
+
+        a {
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            font-size: 0.8em;
+            font-weight: 900;
+        }
+
+        &.current-series {
+            padding: 1em;
+            position: relative;
+            transform: translate(0%, -50%);
+        }
+    }
+
+    .card {
+        background-color: transparent;
+        width: calc(100%/6);
+        padding: 0.5em;
+
+        .cornice {
+            width: calc(80vw /6 - 0.5em);
+            height: calc(80vw / 6 - 0.5em);
+
+            img {
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+                object-position: top center;
+            }
+        }
+
+
+        h4 {
+            color: white;
+            text-transform: uppercase;
+            font-size: 0.8rem;
+            font-weight: 200;
+            padding: 0.5em 0em;
+        }
+    }
+
+}
