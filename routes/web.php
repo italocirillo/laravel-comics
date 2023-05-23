@@ -17,5 +17,6 @@ Route::get('/', function () {
     $db = config('new-comics');
     $comics = $db['comics'];
     $links = $db['links'];
-    return view('home', compact('comics'), compact('links'));
+    $banner = $db['banner'];
+    return view('home', compact('comics', 'links', 'banner'));
 });

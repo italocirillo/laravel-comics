@@ -127,4 +127,32 @@ return [
             "current" => false,
         ],
     ],
+    "banner" => [
+        [
+            "url" => "#",
+            "src" => "buy-comics-digital-comics.png",
+            "name" => "digital comics",
+        ],
+        [
+            "url" => "#",
+            "src" => "buy-comics-merchandise.png",
+            "name" => "dc merchandise",
+        ],
+        [
+            "url" => "#",
+            "src" => "buy-comics-subscriptions.png",
+            "name" => "subscription",
+        ],
+        [
+            "url" => "#",
+            "src" => "buy-comics-shop-locator.png",
+            "name" => "comic shop locator",
+        ],
+        [
+            "url" => "#",
+            "src" => "buy-dc-power-visa.svg",
+            "name" => "dc power visa",
+        ],
+
+    ]
 ];

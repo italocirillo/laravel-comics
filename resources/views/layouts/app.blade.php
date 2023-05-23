@@ -19,9 +19,7 @@
 
     @include('partials.header')
     @include('partials.cardHero')
-    <main>
-        @yield('content')
-    </main>
+    @include('partials.banner')
 </body>
 
 </html>

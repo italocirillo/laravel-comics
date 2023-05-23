@@ -1,0 +1,44 @@
+@use "./variables.scss" as *;
+
+.banner {
+    background-color: $active-color;
+    padding: 2em 0em;
+    position: relative;
+    z-index: 1;
+
+    ul {
+        width: 100%;
+        list-style: none;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        a {
+            text-decoration: none;
+            color: white;
+        }
+
+        li {
+            width: calc(100%/5);
+
+            a {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1em;
+
+                img {
+                    width: 16%;
+                }
+
+                p {
+                    text-transform: uppercase;
+                    font-weight: 300;
+                    font-size: 0.8rem;
+                    margin: 0;
+                }
+            }
+        }
+
+    }
+}
